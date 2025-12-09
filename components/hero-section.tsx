@@ -5,6 +5,13 @@ import { motion, useScroll, useTransform } from "framer-motion"
 import { Github, Linkedin, Mail, Download, Rocket, Code } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import { Montserrat } from "next/font/google"
+
+const montserrat = Montserrat({
+  weight: "700",
+  subsets: ["latin"],
+  display: "swap",
+})
 
 export function HeroSection() {
   const sectionRef = useRef<HTMLElement | null>(null)
@@ -16,7 +23,7 @@ export function HeroSection() {
   const handleDownloadCV = () => {
     const link = document.createElement("a")
     link.href = "/Ronald-Chiagozie-FlowCV-Resume-20251014.pdf"
-    link.download = "/Ronald-Chiagozie-FlowCV-Resume-20251014.pdf"
+    link.download = "Williams-Israel-Resume.pdf"
     link.click()
   }
 
@@ -41,12 +48,26 @@ export function HeroSection() {
           >
             <div className="space-y-3">
               <motion.h1
-                className="text-5xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-balance leading-tight"
+                className={`${montserrat.className} whitespace-nowrap text-[28px] sm:text-[42px] md:text-[56px] lg:text-[52px]`}
+                style={{
+                  lineHeight: '1',
+                  fontWeight: 700,
+                  fontFamily: 'Montserrat, sans-serif',
+                }}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
               >
-                Hi, I'm Ronald Chiagozie
+                Hi, I'm <span 
+                  style={{
+                    backgroundImage: 'linear-gradient(to right, #b16deb, #e36499, #ff6865, #ff9a50)',
+                    WebkitBackgroundClip: 'text',
+                    WebkitTextFillColor: 'transparent',
+                    backgroundClip: 'text'
+                  }}
+                >
+                  Williams Israel
+                </span>
               </motion.h1>
             </div>
 
@@ -56,7 +77,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
-              Fullstack & Mobile Engineer
+              Frontend Developer
             </motion.h2>
 
             <motion.p
@@ -65,7 +86,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              I build modern web and mobile apps using React, Next.js, React Native, and Firebase, from clean UIs to production‑ready architecture.
+              I build modern web applications using React, Next.js, and modern frontend technologies, focusing on clean UIs, smooth interactions, and production‑ready architecture.
             </motion.p>
 
             <motion.div
@@ -107,17 +128,12 @@ export function HeroSection() {
               {[
                 {
                   icon: Github,
-                  href: "https://github.com/belbelbelbel",
+                  href: "https://github.com/WesleyrWilliams",
                   label: "GitHub",
                 },
                 {
-                  icon: Linkedin,
-                  href: "https://www.linkedin.com/in/ronald-chiagozie-b6801628a/",
-                  label: "LinkedIn",
-                },
-                {
                   icon: Mail,
-                  href: "mailto:gronaldchia@gmail.com",
+                  href: "mailto:wisreal763@gmail.com",
                   label: "Email",
                 },
               ].map((social, index) => (
@@ -151,7 +167,7 @@ export function HeroSection() {
               className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96"
             >
               <div className="absolute inset-0 glass-strong rounded-3xl shadow-2xl overflow-hidden">
-                <Image src="/potfolioimg.jpeg" alt="Ronald Belonwu" fill className="object-cover" priority />
+                <Image src="/potfolioimg.jpeg" alt="Williams Israel" fill className="object-cover" priority />
               </div>
 
               <motion.div

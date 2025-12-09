@@ -112,7 +112,7 @@ export function Navigation() {
               className="text-xl font-bold text-foreground z-60 relative"
               whileHover={{ scale: 1.05 }}
             >
-              RB
+              WI
             </motion.a>
             
             {/* Desktop Navigation */}
@@ -242,10 +242,10 @@ export function Navigation() {
                   transition={{ delay: 0.6 }}
                 >
                   <p className="text-sm text-muted-foreground">
-                    © 2024 Ronald Chiagozie
+                    © 2024 Williams Israel
                   </p>
                   <p className="text-xs text-muted-foreground mt-1">
-                    Fullstack & Mobile Engineer
+                    Frontend Developer
                   </p>
                 </motion.div>
               </div>

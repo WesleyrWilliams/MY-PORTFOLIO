@@ -32,14 +32,14 @@ export function AboutSection() {
             transition={{ delay: 0.3 }}
           >
             <p>
-              I'm a fullstack and mobile engineer who enjoys turning ideas into fast, usable products. I focus on React,
-              Next.js, and React Native, and I care a lot about clean UI, smooth interactions, and code that is easy to
+              I'm a frontend developer who enjoys turning ideas into fast, usable products. I focus on React,
+              Next.js, and modern frontend technologies, and I care a lot about clean UI, smooth interactions, and code that is easy to
               grow with a team.
             </p>
             <p>
               I like working closely with product teams, founders, and designers to ship features end‑to‑end, from
               validating the idea, to building the experience, to iterating from real user feedback. Right now, I'm
-              looking for teams where I can own meaningful projects and help ship production‑ready web and mobile apps.
+              looking for teams where I can own meaningful projects and help ship production‑ready web applications.
             </p>
           </motion.div>
         </motion.div>

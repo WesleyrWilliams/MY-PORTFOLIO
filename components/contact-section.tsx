@@ -129,20 +129,14 @@ export function ContactSection() {
                   {
                     icon: Github,
                     label: "GitHub",
-                    value: "@belbelbelbel",
-                    href: "https://github.com/belbelbelbel",
-                  },
-                  {
-                    icon: Linkedin,
-                    label: "LinkedIn",
-                    value: "Ronald chiagozie",
-                    href: "https://www.linkedin.com/in/ronald-chiagozie-b6801628a/",
+                    value: "@WesleyrWilliams",
+                    href: "https://github.com/WesleyrWilliams",
                   },
                   {
                     icon: Mail,
                     label: "Email",
-                    value: "gronaldchia@gmail.com",
-                    href: "mailto:gronaldchia@gmail.com",
+                    value: "wisreal763@gmail.com",
+                    href: "mailto:wisreal763@gmail.com",
                   },
                 ].map((contact, index) => (
                   <motion.a
@@ -177,10 +171,10 @@ export function ContactSection() {
                   transition={{ delay: 0.6 }}
                 >
                   <p className="text-sm text-muted-foreground">
-                    ©Ronald Chiagozie
+                    ©Williams Israel
                   </p>
                   <p className="text-xs text-muted-foreground mt-1">
-                    Fullstack & Mobile Engineer
+                    Frontend Developer
                   </p>
                 </motion.div>
       </div>

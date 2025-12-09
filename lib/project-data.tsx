@@ -35,7 +35,7 @@ export const webProjects: WebProject[] = [
     image: "/goteimg3.png",
     tech: ["Next.js", "Firebase", "Tailwind"],
     liveUrl: "https://gote-marketplace.vercel.app/",
-    githubUrl: "https://github.com/belbelbelbel/gote-marketplace",
+    githubUrl: "https://github.com/WesleyrWilliams/gote-marketplace",
     screens: [
       {
         url: "/goteimg1.png",
@@ -63,7 +63,7 @@ export const webProjects: WebProject[] = [
     image: "/leaveimg2.png",
     tech: ["Pure Javascript", "Tailwind",'Express'],
     liveUrl: "https://leave-mangment-system.vercel.app/",
-    githubUrl: "https://github.com/belbelbelbel/leave-mangment-system",
+    githubUrl: "https://github.com/WesleyrWilliams/leave-mangment-system",
     screens: [
       {
         url: "/leaveimg1.png",
@@ -90,7 +90,7 @@ export const webProjects: WebProject[] = [
     image: "/flavoimg.png",
       tech: ["Next.js", "Tailwind.css", "Chart.js"],
       liveUrl: "https://food-recipe-app-nine-inky.vercel.app/",
-      githubUrl: "https://github.com/belbelbelbel/novaboard",
+      githubUrl: "https://github.com/WesleyrWilliams/novaboard",
       screens: [
         {
           url: "/flavoimg.png",
@@ -121,7 +121,7 @@ export const webProjects: WebProject[] = [
   //   image: "/novaimg2.png",
   //   tech: ["Next.js", "Tailwind.css", "Chart.js"],
   //   liveUrl: "https://novaboard-nine.vercel.app/",
-  //   githubUrl: "https://github.com/belbelbelbel/novaboard",
+  //   githubUrl: "https://github.com/WesleyrWilliams/novaboard",
   //   screens: [
   //     {
   //       url: "/novaimg1.png",
@@ -152,7 +152,7 @@ export const mobileApps: MobileApp[] = [
     // image: "/social-media-mobile-app.jpg",
     image: "/shopimg.png",
     tech: ["React Native", "Firebase Auth", "Expo"],
-    githubUrl: "https://github.com/ronaldbelonwu/lazio",
+    githubUrl: "https://github.com/WesleyrWilliams/lazio",
     demoVideo: {
       type: "youtube",
       // url: "https://www.youtube.com/embed/4iGxEFOQ27M",
@@ -166,7 +166,7 @@ export const mobileApps: MobileApp[] = [
       "A lightweight app that fetches real-time news from an external API with category filtering and search.",
     image: "/newsimg.png",
     tech: ["React Native", "Expo", "NewsAPI"],
-    githubUrl: "https://github.com/ronaldbelonwu/quickwash",
+    githubUrl: "https://github.com/WesleyrWilliams/quickwash",
     demoVideo: {
       type: "youtube",
       url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
@@ -179,7 +179,7 @@ export const mobileApps: MobileApp[] = [
       "A financial tracking tool that helps users understand where their money goes using analytics and clean UI.",
     image: "/social-media-mobile-app.jpg",
     tech: ["React Native", "Firebase", "Expo"],
-    githubUrl: "https://github.com/ronaldbelonwu/expense-tracker",
+    githubUrl: "https://github.com/WesleyrWilliams/expense-tracker",
     demoVideo: {
       type: "youtube",
       url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
