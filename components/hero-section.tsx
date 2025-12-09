@@ -22,8 +22,9 @@ export function HeroSection() {
   const imageY = useTransform(scrollYProgress, [0, 1], [0, 40])
   const handleDownloadCV = () => {
     const link = document.createElement("a")
-    link.href = "/Ronald-Chiagozie-FlowCV-Resume-20251014.pdf"
-    link.download = "Williams-Israel-Resume.pdf"
+    link.href = "/Williams-Israel-Resume.html"
+    link.download = "Williams-Israel-Resume.html"
+    link.target = "_blank"
     link.click()
   }
 

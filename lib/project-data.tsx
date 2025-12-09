@@ -12,19 +12,6 @@ export interface WebProject {
   }[]
 }
 
-export interface MobileApp {
-  type: "mobile"
-  title: string
-  description: string
-  image: string
-  tech: string[]
-  githubUrl: string
-  demoVideo: {
-    type: "youtube" | "mp4"
-    url: string
-    audioUrl?: string
-  }
-}
 
 export const webProjects: WebProject[] = [
   {
@@ -141,49 +128,4 @@ export const webProjects: WebProject[] = [
   //     },
   //   ],
   // },
-
-export const mobileApps: MobileApp[] = [
- 
-  {
-    type: "mobile",
-    title: "SHOPNEST",
-    description:
-      "A full shopping flow built in React Native with clean mobile UI and cart management.",
-    // image: "/social-media-mobile-app.jpg",
-    image: "/shopimg.png",
-    tech: ["React Native", "Firebase Auth", "Expo"],
-    githubUrl: "https://github.com/WesleyrWilliams/lazio",
-    demoVideo: {
-      type: "youtube",
-      // url: "https://www.youtube.com/embed/4iGxEFOQ27M",
-      url: "https://www.youtube.com/embed/AXhijk9fGyc",
-    },
-  },
-  {
-    type: "mobile",
-    title: "NEWSBEAT",
-    description:
-      "A lightweight app that fetches real-time news from an external API with category filtering and search.",
-    image: "/newsimg.png",
-    tech: ["React Native", "Expo", "NewsAPI"],
-    githubUrl: "https://github.com/WesleyrWilliams/quickwash",
-    demoVideo: {
-      type: "youtube",
-      url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    },
-  },
-    {
-    type: "mobile",
-    title: "WALLETWISE",
-    description:
-      "A financial tracking tool that helps users understand where their money goes using analytics and clean UI.",
-    image: "/social-media-mobile-app.jpg",
-    tech: ["React Native", "Firebase", "Expo"],
-    githubUrl: "https://github.com/WesleyrWilliams/expense-tracker",
-    demoVideo: {
-      type: "youtube",
-      url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    },
-  },
-  
 ]

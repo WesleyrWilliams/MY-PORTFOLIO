@@ -6,12 +6,13 @@ import {
   SiReact,
   SiNextdotjs,
   SiTailwindcss,
-  SiExpo,
   SiNodedotjs,
   SiExpress,
   SiFirebase,
   SiGit,
   SiFigma,
+  SiTypescript,
+  SiJavascript,
 } from "react-icons/si"
 import { VscCode } from "react-icons/vsc"
 
@@ -21,14 +22,9 @@ const skills = [
     items: [
       { name: "React", icon: SiReact, color: "#61DAFB" },
       { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
+      { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+      { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
       { name: "Tailwind", icon: SiTailwindcss, color: "#06B6D4" },
-    ],
-  },
-  {
-    category: "Mobile",
-    items: [
-      { name: "React Native", icon: SiReact, color: "#61DAFB" },
-      { name: "Expo", icon: SiExpo, color: "#000020" },
     ],
   },
   {
@@ -64,7 +60,7 @@ export function SkillsSection() {
           Tech Stack
         </motion.h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skills.map((category, categoryIndex) => (
             <motion.div
               key={category.category}
