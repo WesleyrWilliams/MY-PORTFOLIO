@@ -117,9 +117,6 @@ export const webProjects: WebProject[] = [
       },
     ],
   },
-
-
-]
   // {
   //   type: "web",
   //   title: "NOVABOARD",
