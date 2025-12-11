@@ -97,6 +97,26 @@ export const webProjects: WebProject[] = [
         },
       ],
     },
+  {
+    type: "web",
+    title: "MOVIE VAULT",
+    description:
+      "A modern movie finder application with smart search, favorites management, and comprehensive movie details. Built with React and Tailwind CSS.",
+    image: "/movievault.png",
+    tech: ["React", "Tailwind", "Vite"],
+    liveUrl: "https://movie-vault-sooty.vercel.app/",
+    githubUrl: "https://github.com/WesleyrWilliams/Movie-Vault.git",
+    screens: [
+      {
+        url: "/movievault.png",
+        caption: "Home Page - Movie Search",
+      },
+      {
+        url: "/movievault.png",
+        caption: "Movie Discovery Interface",
+      },
+    ],
+  },
 
 
 ]
