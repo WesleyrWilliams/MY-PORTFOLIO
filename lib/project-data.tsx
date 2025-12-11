@@ -117,6 +117,26 @@ export const webProjects: WebProject[] = [
       },
     ],
   },
+  {
+    type: "web",
+    title: "PADDLE PAYMENT",
+    description:
+      "A modern payment platform landing page with mobile web payments integration. Features clean UI, responsive design, and seamless payment processing interface.",
+    image: "/paddle-payment.png",
+    tech: ["Next.js", "Tailwind", "React"],
+    liveUrl: "https://paddle-mobile-web-payments-starter.vercel.app/",
+    githubUrl: "https://github.com/WesleyrWilliams/paddle-mobile-web-payments-starter",
+    screens: [
+      {
+        url: "/paddle-payment.png",
+        caption: "Landing Page",
+      },
+      {
+        url: "/paddle-payment.png",
+        caption: "Payment Interface",
+      },
+    ],
+  },
   // {
   //   type: "web",
   //   title: "NOVABOARD",
