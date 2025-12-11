@@ -16,104 +16,21 @@ export interface WebProject {
 export const webProjects: WebProject[] = [
   {
     type: "web",
-    title: "GOTE-MARKETPLACE",
+    title: "KIOLA",
     description:
-      "A modern e-commerce/marketplace platform with product listings, responsive layouts, and a clean shopping experience.",
-    image: "/goteimg3.png",
-    tech: ["Next.js", "Firebase", "Tailwind"],
-    liveUrl: "https://gote-marketplace.vercel.app/",
-    githubUrl: "https://github.com/WesleyrWilliams/gote-marketplace",
+      "A luxury furniture e-commerce website featuring beautifully crafted furniture collections. Modern design with elegant UI, product showcases, and seamless shopping experience.",
+    image: "/kiola.png",
+    tech: ["Next.js", "Tailwind", "React"],
+    liveUrl: "https://kiola-murex.vercel.app/",
+    githubUrl: "https://github.com/WesleyrWilliams/kiola.git",
     screens: [
       {
-        url: "/goteimg1.png",
-        caption: "Homepage",
+        url: "/kiola.png",
+        caption: "Homepage - Furniture Collection",
       },
       {
-        url: "/goteimg5.png",
-        caption: "Product Catalog",
-      },
-      {
-        url: "/goteimg2.png",
-        caption: "Shopping Cart",
-      },
-      {
-        url: "/goteimg6.png",
-        caption: "Order Confirmation",
-      },
-    ],
-  },
-  {
-    type: "web",
-    title: "LEAVEWISE-APP",
-    description:
-      "Role-based workflow system allowing staff to request leave and admins to approve or decline",
-    image: "/leaveimg2.png",
-    tech: ["Pure Javascript", "Tailwind",'Express'],
-    liveUrl: "https://leave-mangment-system.vercel.app/",
-    githubUrl: "https://github.com/WesleyrWilliams/leave-mangment-system",
-    screens: [
-      {
-        url: "/leaveimg1.png",
-        caption: "Landing Page",
-      },
-      {
-        url: "/leaveimg2.png",
-        caption: "Admin Panel",
-      },
-      {
-        url: "/leaveimg3.png",
-        caption: "Employee Dashboard",
-      },
-      {
-        url: "/leaveimg4.png",
-        caption: "Quick leave form",
-      },
-    ],
-  },
-      {
-      type: "web",
-      title: "FLAVORIT",
-      description: "A food discovery and meal planning platform for exploring recipes and organizing weekly meals.",
-    image: "/flavoimg.png",
-      tech: ["Next.js", "Tailwind.css", "Chart.js"],
-      liveUrl: "https://food-recipe-app-nine-inky.vercel.app/",
-      githubUrl: "https://github.com/WesleyrWilliams/novaboard",
-      screens: [
-        {
-          url: "/flavoimg.png",
-          caption: "Home Page Overview",
-        },
-        {
-          url: "/flavoimg2.png",
-          caption: "Recipe description page",
-        },
-        {
-          url: "/flavoimg4.png",
-          caption: "Meal Plan Page",
-        },
-        {
-          url: "/flavoimg5.png",
-          caption: "Recipe detail page",
-        },
-      ],
-    },
-  {
-    type: "web",
-    title: "MOVIE VAULT",
-    description:
-      "A modern movie finder application with smart search, favorites management, and comprehensive movie details. Built with React and Tailwind CSS.",
-    image: "/movievault.png",
-    tech: ["React", "Tailwind", "Vite"],
-    liveUrl: "https://movie-vault-sooty.vercel.app/",
-    githubUrl: "https://github.com/WesleyrWilliams/Movie-Vault.git",
-    screens: [
-      {
-        url: "/movievault.png",
-        caption: "Home Page - Movie Search",
-      },
-      {
-        url: "/movievault.png",
-        caption: "Movie Discovery Interface",
+        url: "/kiola.png",
+        caption: "Product Showcase",
       },
     ],
   },
@@ -139,21 +56,76 @@ export const webProjects: WebProject[] = [
   },
   {
     type: "web",
-    title: "KIOLA",
+    title: "MOVIE VAULT",
     description:
-      "A luxury furniture e-commerce website featuring beautifully crafted furniture collections. Modern design with elegant UI, product showcases, and seamless shopping experience.",
-    image: "/kiola.png",
-    tech: ["Next.js", "Tailwind", "React"],
-    liveUrl: "https://kiola-murex.vercel.app/",
-    githubUrl: "https://github.com/WesleyrWilliams/kiola.git",
+      "A modern movie finder application with smart search, favorites management, and comprehensive movie details. Built with React and Tailwind CSS.",
+    image: "/movievault.png",
+    tech: ["React", "Tailwind", "Vite"],
+    liveUrl: "https://movie-vault-sooty.vercel.app/",
+    githubUrl: "https://github.com/WesleyrWilliams/Movie-Vault.git",
     screens: [
       {
-        url: "/kiola.png",
-        caption: "Homepage - Furniture Collection",
+        url: "/movievault.png",
+        caption: "Home Page - Movie Search",
       },
       {
-        url: "/kiola.png",
-        caption: "Product Showcase",
+        url: "/movievault.png",
+        caption: "Movie Discovery Interface",
+      },
+    ],
+  },
+  {
+    type: "web",
+    title: "FLAVORIT",
+    description: "A food discovery and meal planning platform for exploring recipes and organizing weekly meals.",
+    image: "/flavoimg.png",
+    tech: ["Next.js", "Tailwind.css", "Chart.js"],
+    liveUrl: "https://food-recipe-app-nine-inky.vercel.app/",
+    githubUrl: "https://github.com/WesleyrWilliams/novaboard",
+    screens: [
+      {
+        url: "/flavoimg.png",
+        caption: "Home Page Overview",
+      },
+      {
+        url: "/flavoimg2.png",
+        caption: "Recipe description page",
+      },
+      {
+        url: "/flavoimg4.png",
+        caption: "Meal Plan Page",
+      },
+      {
+        url: "/flavoimg5.png",
+        caption: "Recipe detail page",
+      },
+    ],
+  },
+  {
+    type: "web",
+    title: "GOTE-MARKETPLACE",
+    description:
+      "A modern e-commerce/marketplace platform with product listings, responsive layouts, and a clean shopping experience.",
+    image: "/goteimg3.png",
+    tech: ["Next.js", "Firebase", "Tailwind"],
+    liveUrl: "https://gote-marketplace.vercel.app/",
+    githubUrl: "https://github.com/WesleyrWilliams/gote-marketplace",
+    screens: [
+      {
+        url: "/goteimg1.png",
+        caption: "Homepage",
+      },
+      {
+        url: "/goteimg5.png",
+        caption: "Product Catalog",
+      },
+      {
+        url: "/goteimg2.png",
+        caption: "Shopping Cart",
+      },
+      {
+        url: "/goteimg6.png",
+        caption: "Order Confirmation",
       },
     ],
   },
