@@ -137,6 +137,26 @@ export const webProjects: WebProject[] = [
       },
     ],
   },
+  {
+    type: "web",
+    title: "KIOLA",
+    description:
+      "A luxury furniture e-commerce website featuring beautifully crafted furniture collections. Modern design with elegant UI, product showcases, and seamless shopping experience.",
+    image: "/kiola.png",
+    tech: ["Next.js", "Tailwind", "React"],
+    liveUrl: "https://kiola-murex.vercel.app/",
+    githubUrl: "https://github.com/WesleyrWilliams/kiola.git",
+    screens: [
+      {
+        url: "/kiola.png",
+        caption: "Homepage - Furniture Collection",
+      },
+      {
+        url: "/kiola.png",
+        caption: "Product Showcase",
+      },
+    ],
+  },
   // {
   //   type: "web",
   //   title: "NOVABOARD",
