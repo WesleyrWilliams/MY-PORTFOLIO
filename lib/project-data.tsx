@@ -12,8 +12,54 @@ export interface WebProject {
   }[]
 }
 
+export interface MobileProject {
+  type: "mobile"
+  title: string
+  description: string
+  image: string
+  tech: string[]
+  liveUrl: string
+  githubUrl: string
+  screens: {
+    url: string
+    caption: string
+  }[]
+}
+
 
 export const webProjects: WebProject[] = [
+  {
+    type: "web",
+    title: "SYNCTRADER",
+    description:
+      "A copy-trading platform landing page focused on trust, real-time transparency, and clear onboarding for both followers and professional leaders.",
+    image: "/synctrader-web.png",
+    tech: ["Next.js", "Tailwind", "React"],
+    liveUrl: "https://synctrader-lemon.vercel.app/",
+    githubUrl: "https://synctrader-lemon.vercel.app/",
+    screens: [
+      {
+        url: "/synctrader-web.png",
+        caption: "Synctrader landing page",
+      },
+    ],
+  },
+  {
+    type: "web",
+    title: "PAIRLINGS",
+    description:
+      "A modern companion-booking landing page with a trust-focused visual system, clear calls to action, and a responsive interface built for conversion.",
+    image: "/pairlings-web.png",
+    tech: ["Next.js", "Tailwind", "React"],
+    liveUrl: "https://my-portfolio-theta-lake-47.vercel.app/",
+    githubUrl: "https://my-portfolio-theta-lake-47.vercel.app/",
+    screens: [
+      {
+        url: "/pairlings-web.png",
+        caption: "Pairlings landing page",
+      },
+    ],
+  },
   {
     type: "web",
     title: "KIOLA",
@@ -157,4 +203,23 @@ export const webProjects: WebProject[] = [
   //     },
   //   ],
   // },
+]
+
+export const mobileProjects: MobileProject[] = [
+  {
+    type: "mobile",
+    title: "PAIRLINGS MOBILE",
+    description:
+      "A clean mobile authentication experience for Pairlings, featuring clear input states, social login options, and a soft, accessible visual style.",
+    image: "/pairlings-mobile-login.png",
+    tech: ["React Native", "TypeScript", "Figma"],
+    liveUrl: "https://my-portfolio-theta-lake-47.vercel.app/",
+    githubUrl: "https://my-portfolio-theta-lake-47.vercel.app/",
+    screens: [
+      {
+        url: "/pairlings-mobile-login.png",
+        caption: "Pairlings mobile login screen",
+      },
+    ],
+  },
 ]

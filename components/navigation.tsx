@@ -31,7 +31,8 @@ export function Navigation() {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
-    { name: "Projects", href: "#projects" },
+    { name: "Web Projects", href: "#projects" },
+    { name: "Mobile Projects", href: "#mobile-projects" },
     { name: "Contact", href: "#contact" },
   ]
 
